@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/alpaca-eip/community.svg)](https://gitter.im/alpaca-eip/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # alpaca
 
 Alpaca is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data
