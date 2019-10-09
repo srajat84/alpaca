@@ -1,0 +1,43 @@
+{
+  "name": "alpaca",
+  "version": "0.0.1",
+  "description": "Alpaca framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && yarn test:contract",
+    "test:watch": "jest --watch --verbose false",
+    "postinstall": "lerna bootstrap",
+    "posttest": "yarn prettier-check '**/*.ts' && yarn test:lint",
+    "test:lint": "yarn tslint -p tsconfig.json -c tslint.json '**/*.ts' --fix",
+    "format": "prettier --write '**/*.ts'"
+  },
+  "author": "Rajat",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/srajat84/alpaca/issues"
+  },
+  "homepage": "https://github.com/srajat84/alpaca/blob/master/README.md",
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^10.12.18",
+    "@types/request-promise-native": "^1.0.16",
+    "jest": "^23.6.0",
+    "lerna": "^3.10.6",
+    "prettier": "^1.16.3",
+    "prettier-check": "^2.0.0",
+    "source-map-support": "^0.5.10",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.5",
+    "lodash": "^4.17.11",
+    "test": "^0.6.0"
+  }
+}

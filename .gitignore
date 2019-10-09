@@ -1,0 +1,27 @@
+# package directories
+node_modules
+
+# Webpack directories
+.webpack
+
+# Intellij files
+.idea
+# VSCode files
+.vscode/
+# build directories
+lib/
+
+/packages/**/*.js
+**/*.js.map
+coverage
+
+lerna-debug.log
+
+.DS_Store
+coverage
+
+# pact
+logs
+
+#logs
+*.log

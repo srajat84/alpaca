@@ -13,3 +13,27 @@ Packed with several hundred components that are used to access databases, messag
 # DATA FORMATS
 
 It supports multiple data formats, allowing to translate messages in multiple formats.
+
+# Examples
+
+The Alpaca DSL should look something like this:
+
+const alpacaContext = new AlpacaContext();
+
+const route = from(source)
+.choice()
+.when(condition).to(endpoint)
+.otherwise()
+.to(anotherEndpoint)
+.end();
+
+alpacaContext.add(route);
+
+const kafkaToLambdaRoute = from("kafka://<host>/<topic>?prop1=val1;prop2=val2")
+.transform(new CustomerTransformer())
+.to("lambda://<function-name>")
+.end();
+
+alpacaContext.add(kafkaToLambdaRoute);
+
+kafkaToLambdaRoute.start()
