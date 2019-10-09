@@ -4,7 +4,7 @@
   "description": "Alpaca framework",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && yarn test:contract",
+    "test": "jest --coverage",
     "test:watch": "jest --watch --verbose false",
     "postinstall": "lerna bootstrap",
     "posttest": "yarn prettier-check '**/*.ts' && yarn test:lint",
