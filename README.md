@@ -40,5 +40,5 @@ const kafkaToLambdaRoute = from("kafka://<host>/<topic>?prop1=val1;prop2=val2")
 
 alpacaContext.add(kafkaToLambdaRoute);
 
-kafkaToLambdaRoute.start();
+alpacaContext.start();
 ```
