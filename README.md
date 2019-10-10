@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/srajat84/alpaca/tree/master.svg?style=shield)](https://circleci.com/gh/srajat84/alpaca/tree/master) [![Gitter](https://badges.gitter.im/alpaca-eip/community.svg)](https://gitter.im/alpaca-eip/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+[![CircleCI](https://circleci.com/gh/srajat84/alpaca/tree/master.svg?style=shield)](https://circleci.com/gh/srajat84/alpaca/tree/master) [![Gitter](https://badges.gitter.im/alpaca-eip/community.svg)](https://gitter.im/alpaca-eip/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![DeepScan grade](https://deepscan.io/api/teams/5679/projects/7514/branches/77626/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5679&pid=7514&bid=77626)
 
 # alpaca
 
