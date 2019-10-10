@@ -1,4 +1,6 @@
-[![Gitter](https://badges.gitter.im/alpaca-eip/community.svg)](https://gitter.im/alpaca-eip/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![CircleCI](https://circleci.com/gh/srajat84/alpaca/tree/master.svg?style=svg)](https://circleci.com/gh/srajat84/alpaca/tree/master)
+
+[![Gitter](https://badges.gitter.im/alpaca-eip/community.svg)](https://gitter.im/alpaca-eip/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
 
 # alpaca
 
